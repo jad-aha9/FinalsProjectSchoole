@@ -22,7 +22,7 @@ module.exports = {
       },
       colors : {
         'BlueDark':'#1f2233',
-        'Yellow':'#f3cc7d'
+        'YellowSun':'#f3cc7d',
       },
       
 

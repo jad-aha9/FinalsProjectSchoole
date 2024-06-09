@@ -4,13 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="../dist/style.css">
+  <link rel="stylesheet" href="./dist/style.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Great+Vibes&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  
 
 
 </style>
@@ -18,24 +20,20 @@
 <body class=" overflow-y-scroll no-scrollbar bg-slate-200">
   
 <!-- navabr start --> 
-<nav class="sticky top-0 z-40 b bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700" data-aos="fade-up" data-aos-delay="500">
-  <div class="  max-w-screen-x2 flex flex-wrap items-center justify-between mx-auto">
-    <select class="bg-transparent border-0 duration-200 font-bold m-4 cursor-pointer inuse" name="lang" id="" style="font-family: Poppins, sans-serif" data-aos="fade-up" data-aos-delay="600">
-      <option class="font-bold" value="" style="font-family: Poppins, sans-serif">English</option>
-      <option class="font-bold" value="" style="font-family: Poppins, sans-serif">French</option>
-      <option class="font-bold" value="" style="font-family: Poppins, sans-serif">Arabic</option>
-    </select>
-    <div class="flex items-center md:order-2 space-x-1 md:space-x-0 rtl:space-x-reverse m-4">
-      <div class="flex font-medium">
-        <a href="./pagaes/Logein.html"><i class=" fa-solid fa-user  mx-4 text-1xl text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"></i></a>
-        <a href=""><i class="fa-solid fa-right-to-bracket mx-4 text-1xl text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"></i></a>
-      </div>
-    </div>
-  </div>
+<nav class="fixed w-full top-0 z-40 b bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700" data-aos="fade-up" data-aos-delay="500">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4" data-aos="fade-up" data-aos-delay="700">
       <a href="#fotter" class="flex items-center space-x-3 rtl:space-x-reverse">
-          <span class=" self-center text-3xl font-semibold whitespace-nowrap " style="font-family: Great Vibes, cursive; font-weight: 500;">GetTheRoom</span>
+          <span class=" self-center text-3xl font-semibold whitespace-nowrap " style="font-family: Great Vibes, cursive; font-weight: 500;">GetYourRoom</span>
       </a>
+      <div class="flex items-center md:order-2 space-x-1 md:space-x-0 rtl:space-x-reverse">
+        <select class="border-0 " name="" id="">
+          <option value="">Fr</option>
+          <option value="">Ar</option>
+          <option value="">En</option>
+        </select>
+        <a href="./pagaes/Logein.html"><i class="fa-solid fa-user mx-4 text-1xl text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"></i></a>
+        <a href="#"><i class="fa-solid fa-right-to-bracket mx-4 text-1xl text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"></i></a>
+    </div>
       <button data-collapse-toggle="navbar-multi-level" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-multi-level" aria-expanded="false">
           <span class="sr-only">Open main menu</span>
           <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
@@ -48,7 +46,7 @@
             <a href="#" class="block py-2 px-3 text-2xl text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent" aria-current="page" style="font-family: Great Vibes, cursive; font-weight: 500;" >Home</a>
           </li>
           <li>
-            <a href="./pagaes/Hotels.html" class="block py-2 px-3 text-2xl text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" style="font-family: Great Vibes, cursive; font-weight: 500;" >Hotels</a>
+            <a href="./pagaes/Rooms.html" class="block py-2 px-3 text-2xl text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" style="font-family: Great Vibes, cursive; font-weight: 500;" >Rooms</a>
           </li>
           <li>
             <a href="./pagaes/offers.html" class="block py-2 px-3 text-2xl text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" style="font-family: Great Vibes, cursive; font-weight: 500;" >Offers</a>
@@ -57,104 +55,123 @@
             <a href="./pagaes/Bloge.html" class="block py-2 px-3 text-2xl text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" style="font-family: Great Vibes, cursive; font-weight: 500;" >Blog</a>
           </li>
           <li>
-            <a href="./pagaes/Contact.html" class="block py-2 px-3 text-2xl text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" style="font-family: Great Vibes, cursive; font-weight: 500;" >Contact</a>
+            <a href="#fotter" class="block py-2 px-3 text-2xl text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" style="font-family: Great Vibes, cursive; font-weight: 500;" >Contact</a>
           </li>
-          
         </ul>
       </div>
     </div>
   </nav>
 <!-- navabr end --> 
 
-
-
-
-
-
-
 <!-- Hero start --> 
 
 <div class="relative h-screen">
-  <img class="absolute inset-0 w-full h-full object-cover"  data-aos="fade-up" data-aos-delay="500" src="https://images.unsplash.com/photo-1614568112072-770f89361490?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+  <img class="absolute inset-0 w-full h-full object-cover"  data-aos="fade-up" data-aos-delay="500" src="https://images.unsplash.com/photo-1592494804071-faea15d93a8a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
   <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4">
     <div class="text-center text-white max-w-md w-full">
-      <h1 class="mb-8 text-4xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl" style="font-family: Great Vibes, cursive; font-weight: 500;" data-aos="fade-up" data-aos-delay="600">Search For Your Room</h1>
-      <!-- Form Start -->
-      <form class="space-y-4" method="get">
-        <div>
-          <label for="place" class="sr-only text-stone-950">Place</label>
-          <input data-aos="fade-up" data-aos-delay="500" type="text" id="place" name="place" class="text-stone-950 block w-full px-4 py-2 rounded-md border border-gray-300 focus:ring-indigo-500 focus:border-indigo-500" style="font-family: Great Vibes, cursive; font-weight: 500;" placeholder="Place">
-        </div>
-        <div>
-          <label for="checkin" class="sr-only">Check-in</label>
-          <input data-aos="fade-up" data-aos-delay="400"  type="date" id="checkin" name="checkin" class="text-stone-950 block w-full px-4 py-2 rounded-md border border-gray-300 focus:ring-indigo-500 focus:border-indigo-500" style="font-family: Great Vibes, cursive; font-weight: 500;" placeholder="Check-in">
-        </div>
-        <div>
-          <label for="checkout" class="sr-only">Check-out</label>
-          <input data-aos="fade-up" data-aos-delay="300" type="date" id="checkout" name="checkout" class="text-stone-950 block w-full px-4 py-2 rounded-md border border-gray-300 focus:ring-indigo-500 focus:border-indigo-500" style="font-family: Great Vibes, cursive; font-weight: 500;" placeholder="Check-out">
-        </div>
-        <div>
-          <label for="persons" class="sr-only">Persons</label>
-          <select data-aos="fade-up" data-aos-delay="200" id="persons" name="persons" class="text-stone-950 block w-full px-4 py-2 rounded-md border border-gray-300 focus:ring-indigo-500 focus:border-indigo-500" style="font-family: Great Vibes, cursive; font-weight: 500;">
-            <option class="text-stone-950" value="" disabled selected>Number of Persons</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-            <option value="10">10</option>
-          </select>
-        </div>
-        <button data-aos="fade-up" data-aos-delay="100" type="submit" class="w-full px-4 py-2 text-white bg-indigo-600 rounded-md hover:bg-indigo-700 focus:ring-4 focus:ring-indigo-500" style="font-family: Great Vibes, cursive; font-weight: 500;">Search</button>
-      </form>
-      <!-- Form End -->
+      <h1 class="mb-8 text-4xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl" style="font-family: Great Vibes, cursive; font-weight: 500;" data-aos="fade-up" data-aos-delay="600">Find Your Room</h1>
+      <div class="flex justify-center mt-10 text-BlueDark">
+        <form action="/search" method="GET" class="bg-white p-4 shadow-lg flex items-center space-x-4">
+            <input type="text" name="destination" placeholder="More places than you could ever go (but you can try!)"
+                class="border border-gray-300 rounded-lg py-2 px-4 w-80" style="font-family: Poppins, sans-serif">
+            <div class="flex space-x-2">
+                <input type="date" name="checkin" placeholder="Check-in" class="border border-gray-300 rounded-lg py-2 px-4" style="font-family: Poppins, sans-serif">
+                
+                <input type="date" name="checkout" placeholder="Check-out" class="border border-gray-300 rounded-lg py-2 px-4" style="font-family: Poppins, sans-serif">
+            </div>
+            <div class="relative">
+                <button type="button" onclick="toggleDropdown()" class="border border-gray-300 rounded-lg w-72 py-2 px-4 flex items-center space-x-2">
+                    <span id="guest-summary" style="font-family: Poppins, sans-serif">0 adults · 0 children · 0 room</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M5.293 7.707a1 1 0 011.414 0L10 11.586l3.293-3.879a1 1 0 111.414 1.414l-4 4.5a1 1 0 01-1.414 0l-4-4.5a1 1 0 010-1.414z" clip-rule="evenodd" />
+                    </svg>
+                </button>
+                <div id="guest-dropdown" class="absolute mt-2 w-64 bg-white border border-gray-300 rounded-lg shadow-lg p-4 hidden">
+                    <div class="flex flex-col space-y-2">
+                        <div class="flex justify-between items-center">
+                            <span class="w-20" style="font-family: Poppins, sans-serif">Adults</span>
+                            <div class="flex items-center space-x-2">
+                                <button type="button" onclick="decrement('adults')" class="bg-gray-200 px-2 rounded">-</button>
+                                <span id="adults-count">1</span>
+                                <button type="button" onclick="increment('adults')" class="bg-gray-200 px-2 rounded">+</button>
+                            </div>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="w-20" style="font-family: Poppins, sans-serif">Children</span>
+                            <div class="flex items-center space-x-2">
+                                <button type="button" onclick="decrement('children')" class="bg-gray-200 px-2 rounded">-</button>
+                                <span id="children-count">0</span>
+                                <button type="button" onclick="increment('children')" class="bg-gray-200 px-2 rounded">+</button>
+                            </div>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="w-20" style="font-family: Poppins, sans-serif">Rooms</span>
+                            <div class="flex items-center space-x-2">
+                                <button type="button" onclick="decrement('rooms')" class="bg-gray-200 px-2 rounded">-</button>
+                                <span id="rooms-count">1</span>
+                                <button type="button" onclick="increment('rooms')" class="bg-gray-200 px-2 rounded">+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <input type="hidden" name="adults" id="adults-input" value="2">
+            <input type="hidden" name="children" id="children-input" value="0">
+            <input type="hidden" name="rooms" id="rooms-input" value="1">
+            <button type="submit" class="bg-blue-500 text-white rounded-lg py-2 px-4">Search</button>
+        </form>
+    </div>
+    </div>
     </div>
   </div>
 </div>
-
-<!-- Hero end --> 
-
-
-<!-- Cards start --> 
+<div class="flex justify-center items-center">
+  <div  style="width: 1px; height: 150px;" data-aos="fade-up" data-aos-delay="700"></div>
+</div>
+<!-- Hero end -->
  
-<div class="text-center my-6 p-6">
-  <h2 class="text-4xl font-bold" style="font-family: Poppins, sans-serif"  data-aos="fade-up" data-aos-delay="600">Top destinations in Morocco</h2>
+
+
+<div class="text-center ">
+  <h2 class="text-4xl m-2" style="font-family: Poppins, sans-serif"  data-aos="fade-up" data-aos-delay="600">Best Destinations In Morocco</span></h2>
 </div>
-<div class="flex flex-wrap justify-center gap-4 p-6 mb-4">
-  <div class="card block max-w-[18rem] shadow-lg cursor-pointer  bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-stone-950"  data-aos="fade-up" data-aos-delay="400">
+
+<div class="flex justify-center items-center">
+  <div class="bg-BlueDark mb-3" style="width: 1px; height: 150px;" data-aos="fade-up" data-aos-delay="700"></div>
+</div>
+
+<div class="flex flex-wrap justify-center gap-4 z-40 p-6 mb-4  border-BlueDark">
+  <div class="card block max-w-[18rem]   cursor-pointer  bg-transparent text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-stone-950"  data-aos="fade-up" data-aos-delay="400">
     <div class="relative overflow-hidden bg-cover bg-no-repeat">
       <img
-        class=""
-        src="https://media.tacdn.com/media/attractions-splice-spp-674x446/06/73/d2/73.jpg"
+        class="rounded-lg"
+        src="https://lp-cms-production.imgix.net/2020-10/GettyRF_518120994.jpg?auto=format&q=75&w=1024"
         alt="" />
     </div>
     <div class="p-6">
-      <h3 class="text-xl font-semibold mb-2" style="font-family: Poppins, sans-serif" >Agadir</h3>
+      <h3 class="text-xl font-semibold mb-2" style="font-family: Poppins, sans-serif" >Essaouira</h3>
       <p class="text-base" style="font-family: Poppins, sans-serif">
-        Agadir is one of the major urban centres of Morocco. The municipality of Agadir recorded a population of 924,000 in the 2014 Moroccan census.
+        If you have to choose one place to enjoy the broad spectrum of everything Morocco offers, Essaouira is a great pick.
+        </p>
     </div>
   </div>
-  <div class="card block max-w-[18rem] shadow-lg cursor-pointer   bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-stone-950"  data-aos="fade-up" data-aos-delay="500">
+  <div class="card block max-w-[18rem]  cursor-pointer   bg-transparent text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-stone-950"  data-aos="fade-up" data-aos-delay="500">
     <div class="relative overflow-hidden bg-cover bg-no-repeat">
       <img
-        class=""
-        src="https://www.tracedirecte.com/media/original_images/rabat-maroc.jpg.1920x0_q85_format-jpg.jpg"
+        class="rounded-lg"
+        src="https://lp-cms-production.imgix.net/2023-09/GettyImages-1470151678.jpg?auto=format&q=75&w=1024"
         alt="" />
     </div>
     <div class="p-6">
-      <h3 class="text-xl font-semibold mb-2" style="font-family: Poppins, sans-serif" >Rabat</h3>
+      <h3 class="text-xl font-semibold mb-2" style="font-family: Poppins, sans-serif" >Marrakesh</h3>
       <p class="text-base" style="font-family: Poppins, sans-serif">
         city of Morocco and the country's seventh-largest city with an urban population of approximately 580,000 (2014)
     </div>
   </div>
-  <div class="card block max-w-[18rem] shadow-lg cursor-pointer  bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-stone-950"  data-aos="fade-up" data-aos-delay="500">
+  <div class="card block max-w-[18rem]  cursor-pointer  bg-transparent text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-stone-950"  data-aos="fade-up" data-aos-delay="500">
     <div class="relative overflow-hidden bg-cover bg-no-repeat">
       <img
-        class=""
+        class="rounded-lg"
         src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Tanger_cor.jpg"
         alt="" />
     </div>
@@ -165,15 +182,15 @@
       </p>
     </div>
   </div>
-  <div class="card block max-w-[18rem] shadow-lg cursor-pointer   bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-stone-950"  data-aos="fade-up" data-aos-delay="600">
+  <div class="card block max-w-[18rem]  cursor-pointer   bg-transparent text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-stone-950"  data-aos="fade-up" data-aos-delay="600">
     <div class="relative overflow-hidden bg-cover bg-no-repeat">
       <img
-        class=""
-        src="https://www.businessdestinations.com/wp-content/uploads/2013/05/marakesh1.jpg"
+        class="rounded-lg"
+        src="https://lp-cms-production.imgix.net/2021-10/GettyImages-503231588.jpg?auto=format&q=75&w=1024"
         alt="" />
     </div>
     <div class="p-6">
-      <h3 class="text-xl font-semibold mb-2" style="font-family: Poppins, sans-serif">Marrakesh</h3>
+      <h3 class="text-xl font-semibold mb-2" style="font-family: Poppins, sans-serif">Fes</h3>
       <p class="text-base" style="font-family: Poppins, sans-serif">
         Between tradition and modernity, Marrakech is the promise of unequalled sensations. Strolling the Jemaa El-Fna square and the souks with their shimmering colours and oriental smell
       </p>
@@ -182,53 +199,34 @@
 </div>
 
 <!-- Card end --> 
-
+<div class="flex justify-center items-center">
+  <div  style="width: 1px; height: 150px;" data-aos="fade-up" data-aos-delay="700"></div>
+</div>
 <!-- OurTeam start -->
 
-<div class="text-center mb-6 p-6">
-  <h2 class="text-4xl font-bold" style="font-family: Poppins, sans-serif"  data-aos="fade-up" data-aos-delay="600">Meet Our Team</span></h2>
+<div class="text-center  ">
+  <h2 class="text-4xl " style="font-family: Poppins, sans-serif"  data-aos="fade-up" data-aos-delay="600">About Us</span></h2>
 </div>
 
 <!-- Our Team Section Start -->
-<section id="our-team" class="py-20 flex justify-center items-center max-h-screen">
-  <div class="container mx-auto px-4">
-    <div class="flex justify-center"> <!-- Added flex container -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-center gap-6"> <!-- Grid moved inside flex container -->
-        <!-- Team Member 1 -->
-        <div class="bg-white rounded-lg w-64 p-6 text-center shadow-md" data-aos="fade-up" data-aos-delay="400">
-          <img src="./src/img/PerosonalPic.png" alt="Team Member 1" class="w-32 rounded-full mx-auto mb-4">
-          <h3 class="text-xl font-semibold mb-2" style="font-family: Poppins, sans-serif">Jad Aharrar</h3>
-          <p class="text-gray-700 mb-4" style="font-family: Poppins, sans-serif">Role: CEO Founder</p>
-        </div>
+      
 
-        <!-- Team Member 2 -->
-        <div class="bg-white rounded-lg w-64 p-6 text-center shadow-md" data-aos="fade-up" data-aos-delay="400">
-          <img src="./src/img/PerosonalPic.png" alt="Team Member 2" class="w-32 rounded-full mx-auto mb-4">
-          <h3 class="text-xl font-semibold mb-2" style="font-family: Poppins, sans-serif">Jad Aharrar</h3>
-          <p class="text-gray-700 mb-4" style="font-family: Poppins, sans-serif">Role: CEO Founder</p>
-        </div>
-
-        <!-- Team Member 3 -->
-        <div class="bg-white rounded-lg w-64 p-6 text-center shadow-md" data-aos="fade-up" data-aos-delay="400">
-          <img src="./src/img/PerosonalPic.png" alt="Team Member 3" class="w-32 rounded-full mx-auto mb-4">
-          <h3 class="text-xl font-semibold mb-2" style="font-family: Poppins, sans-serif">Jad Aharrar</h3>
-          <p class="text-gray-700 mb-4" style="font-family: Poppins, sans-serif">Role: CEO Founder</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 <!-- Our Team Section End -->
 
 
 
-
-
-<div class="text-center mb-6 p-6 ">
-  <h2 class="text-4xl font-bold" style="font-family: Poppins, sans-serif"  data-aos="fade-up" data-aos-delay="600">Why Choose Us</span></h2>
+<div class="flex justify-center items-center">
+  <div  style="width: 1px; height: 150px;" data-aos="fade-up" data-aos-delay="700"></div>
 </div>
 
-    <section id="features bg-transparent"
+<div class="text-center mb-6 p-6 ">
+  <h2 class="text-4xl " style="font-family: Poppins, sans-serif"  data-aos="fade-up" data-aos-delay="600">what we Offer</span></h2>
+</div>
+<div class="flex justify-center items-center">
+  <div class="bg-BlueDark mb-3" style="width: 1px; height: 150px;" data-aos="fade-up" data-aos-delay="700"></div>
+</div>
+
+    <section id="features bg-transparent border-solid border-2 border-sky-500"
         class="relative block px-6 py-10 md:py-20 md:px-10  mb-8">
         <div class="relative mx-auto max-w-7xl z-10 grid grid-cols-1 gap-10 pt-14 sm:grid-cols-2 lg:grid-cols-3">
             <div class="rounded-md   p-8 text-center" data-aos="fade-up" data-aos-delay="500">
@@ -258,7 +256,7 @@
               <div class="button-text mx-auto flex h-12 w-12 items-center justify-center">
                 <i class="fa-solid fa-credit-card text-2xl animate-bounce" ></i>
               </div>
-              <h3 class="mt-6 text-gray-400" style="font-family: Poppins, sans-serif">Secure Payment Processing</h3>
+              <h3 class="mt-6 text-gray-400" style="font-family: Poppins, sans-serif">Smothe Booking</h3>
               <p class="my-4 mb-0 font-normal leading-relaxed tracking-wide text-gray-400" style="font-family: Poppins, sans-serif">Tailor your landing page's
                   look
                   and feel, from the color scheme to the font size, to the design of the page.
@@ -267,18 +265,125 @@
 
 
         </div>
+        <div class="relative mx-auto max-w-7xl z-10 grid grid-cols-1 gap-10 pt-14 sm:grid-cols-2 lg:grid-cols-3">
+          <div class="rounded-md   p-8 text-center" data-aos="fade-up" data-aos-delay="500">
+              <div class="button-text mx-auto flex h-12 w-12 items-center justify-center">
+                <i class="fa-solid fa-credit-card text-2xl  duration-200   animate-bounce" ></i>
+              </div>
+              <h3 class="mt-6 text-gray-400" style="font-family: Poppins, sans-serif">Secure Information</h3>
+              <p class="my-4 mb-0 font-normal leading-relaxed tracking-wide text-gray-400" style="font-family: Poppins, sans-serif">Tailor your landing page's
+                  look
+                  and feel, from the color scheme to the font size, to the design of the page.
+              </p>
+          </div>
 
-       
 
+          <div class="rounded-md p-8 text-center hover:" data-aos="fade-up" data-aos-delay="500">
+              <div class="button-text mx-auto flex h-12 w-12 items-center justify-center ">
+                  <i class="fa-solid fa-magnifying-glass text-2xl animate-bounce "></i>
+              </div>
+              <h3 class="mt-6 text-gray-400" style="font-family: Poppins, sans-serif">Fast reply</h3>
+              <p class="my-4 mb-0 font-normal leading-relaxed tracking-wide text-gray-400" style="font-family: Poppins, sans-serif">We build our templates for
+                  speed in mind, for super-fast load times so your customers never waver.
+              </p>
+          </div>
+
+
+          <div class="rounded-md   p-8 text-center " data-aos="fade-up" data-aos-delay="500">
+            <div class="button-text mx-auto flex h-12 w-12 items-center justify-center">
+              <i class="fa-solid fa-credit-card text-2xl animate-bounce" ></i>
+            </div>
+            <h3 class="mt-6 text-gray-400" style="font-family: Poppins, sans-serif">Good Customers Service</h3>
+            <p class="my-4 mb-0 font-normal leading-relaxed tracking-wide text-gray-400" style="font-family: Poppins, sans-serif">Tailor your landing page's
+                look
+                and feel, from the color scheme to the font size, to the design of the page.
+            </p>
+        </div>
+      </div>
     </section>
-
-     
-
-
-
-
-
 <!-- Our service end -->
+<div class="flex justify-center items-center">
+  <div  style="width: 1px; height: 150px;" data-aos="fade-up" data-aos-delay="700"></div>
+</div>
+<!-- ContactUs start -->
+<section class="bg-transparent dark:bg-slate-800" id="contact">
+  <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
+      <div class="" data-aos="fade-up" data-aos-delay="600">
+          <div class=" max-w-3xl text-center sm:text-center md:mx-auto ">
+              <h2
+                  class="font-heading  tracking-tight text-gray-900 dark:text-white text-3xl sm:text-5xl" style="font-family: Poppins, sans-serif">
+                  Get in Touch
+              </h2>
+              
+          </div>
+      </div>
+      <div class="flex justify-center items-center">
+        <div class="bg-BlueDark mb-3" style="width: 1px; height: 150px;" data-aos="fade-up" data-aos-delay="700"></div>
+      </div>
+      <div class="flex items-stretch justify-center" data-aos="fade-up" data-aos-delay="600">
+          <div class="grid md:grid-cols-2">
+              <div class="h-full pr-6">
+                
+                  <p class="mt-3 mb-12 text-lg text-gray-600 dark:text-slate-400" style="font-family: Poppins, sans-serif">
+                    We value your feedback, inquiries, and suggestions. Please feel free to reach out to us using any of the methods below:
+                  </p>
+                
+                  <ul class="mb-6 md:mb-0">
+                      <li class="flex">
+                          
+                          <div class="ml-4 mb-4">
+                              <h3 class="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white" style="font-family: Poppins, sans-serif">Our Address
+                              </h3>
+                              <p class="text-gray-600 dark:text-slate-400" style="font-family: Poppins, sans-serif">1230 Maecenas Street Donec Road</p>
+                              <p class="text-gray-600 dark:text-slate-400" style="font-family: Poppins, sans-serif">New York, EEUU</p>
+                          </div>
+                      </li>
+                      <li class="flex">
+                          
+                          <div class="ml-4 mb-4">
+                              <h3 class="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white" style="font-family: Poppins, sans-serif">Contact
+                              </h3>
+                              <p class="text-gray-600 dark:text-slate-400" style="font-family: Poppins, sans-serif">Mobile: +1 (123) 456-7890</p>
+                              <p class="text-gray-600 dark:text-slate-400" style="font-family: Poppins, sans-serif">Mail: tailnext@gmail.com</p>
+                          </div>
+                      </li>
+                      <li class="flex">
+                          
+                          <div class="ml-4 mb-4">
+                              <h3 class="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white" style="font-family: Poppins, sans-serif">Working
+                                  hours</h3>
+                              <p class="text-gray-600 dark:text-slate-400" style="font-family: Poppins, sans-serif">Monday - Friday: 08:00 - 17:00</p>
+                              <p class="text-gray-600 dark:text-slate-400" style="font-family: Poppins, sans-serif">Saturday &amp; Sunday: 08:00 - 12:00</p>
+                          </div>
+                      </li>
+                  </ul>
+              </div>
+              <div class="card h-fit max-w-6xl p-5 md:p-12" id="form">
+                  <h2 class="mb-4 text-2xl font-bold dark:text-white">Ready to Get Started?</h2>
+                  <form id="contactForm">
+                      <div class="mb-6">
+                          <div class="mx-0 mb-1 sm:mb-4">
+                              <div class="mx-0 mb-1 sm:mb-4">
+                                  <label for="name" class="pb-1 text-xs uppercase tracking-wider"></label><input type="text" id="name" autocomplete="given-name" placeholder="Your name" class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="name" style="font-family: Poppins, sans-serif">
+                              </div>
+                              <div class="mx-0 mb-1 sm:mb-4">
+                                  <label for="email" class="pb-1 text-xs uppercase tracking-wider"></label><input type="email" id="email" autocomplete="email" placeholder="Your email address" class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="email" style="font-family: Poppins, sans-serif">
+                              </div>
+                          </div>
+                          <div class="mx-0 mb-1 sm:mb-4">
+                              <label for="textarea" class="pb-1 text-xs uppercase tracking-wider"></label><textarea id="textarea" name="textarea" cols="30" rows="5" placeholder="Write your message..." class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" style="font-family: Poppins, sans-serif"></textarea>
+                          </div>
+                      </div>
+                      <div class="text-center">
+                          <button type="submit" class="w-full bg-blue-800 text-white px-6 py-3 font-xl rounded-md sm:mb-0" style="font-family: Poppins, sans-serif">Send Message</button>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- ContactUs start -->
 
 
 
@@ -287,7 +392,7 @@
   <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
       <div class="sm:flex sm:items-center sm:justify-between">
         <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
-          <span class="self-center text-3xl font-semibold whitespace-nowrap" style="font-family: Great Vibes, cursive; font-weight: 500;">GetTheRoom</span>
+          <span class="self-center text-3xl font-semibold whitespace-nowrap" style="font-family: Great Vibes, cursive; font-weight: 500;">GetYourRoom</span>
         </a>
           <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
               <li>
@@ -317,6 +422,7 @@
 <script src="./src/js/main.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 <script>
   AOS.init();
 </script>
