@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+</head>
+<body class="overflow-y-scroll no-scrollbar">
+
+<!-- navabr start --> 
+
+    <header class="bg-amber-400">
+        <nav class="bg-slate-600 border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-darkblue overflow-hidden"data-aos="fade-down" data-aos-delay="200" style="background-color: #1f2233;">
+            <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+                <a href="https://flowbite.com" class="flex items-center">
+                    <img src="../img/Logo.png" class="mr-3 h-6 sm:h-9" data-aos="fade-right" data-aos-delay="300" alt="Flowbite Logo" />
+                    
+                </a>
+                <div class="flex items-center lg:order-2">
+                    <a href="#" class="text-white dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800" data-aos="fade-up" data-aos-delay="300">Log in</a>
+                    <a href="#" class="text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800" data-aos="fade-up" data-aos-delay="300">Get started</a>
+
+                    <button data-collapse-toggle="mobile-menu-2" type="button" class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-2" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                        <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                    </button>
+                </div>
+                <div class="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1" data-aos="fade-up" data-aos-delay="300" id="mobile-menu-2">
+                    <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+                        <li>
+                            <a href="/src/index.html" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Home</a>
+                        </li>
+                        <li>
+                            <a href="./Hotels.html" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Hotels</a>
+                        </li>
+                        <li>
+                            <a href="./Rooms.html" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Rooms</a>
+                        </li>
+                        <li>
+                            <a href="./Bloge.html" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#" class="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-Yellow">Team</a>
+                        </li>
+                        <li>
+                            <a href="./Contact.html" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<!-- navabr end -->
+
+<!-- carsoule start -->
+
+
+<div id="default-carousel" class="relative w-full" data-carousel="slide">
+  <!-- Carousel wrapper -->
+  <div class="relative h-56 overflow-hidden  md:h-96">
+       <!-- Item 1 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="../img/background1.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+      </div>
+      <!-- Item 2 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="../img/background2.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+      </div>
+      <!-- Item 3 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="../img/background3.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+      </div>
+      <!-- Item 4 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="../img/background4.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+      </div>
+  </div>
+  <!-- Slider indicators -->
+  <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+      <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+      <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+      <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+      <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+  </div>
+  <!-- Slider controls -->
+  <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+      <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+          <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+          </svg>
+          <span class="sr-only">Previous</span>
+      </span>
+  </button>
+  <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+      <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+          <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+          </svg>
+          <span class="sr-only">Next</span>
+      </span>
+  </button>
+</div>
+
+
+<!-- carsoule end -->
+  
+
+    
+
+<!-- US start -->
+<section class="container mx-auto px-4 py-12 text-center mb-[100px] mt-[50px]">
+  <h1 class="text-4xl font-bold text-gray-800" data-aos="fade-up">ABOUTE US</h1>
+  <p class="text-gray-600 font-bold mt-4" data-aos="fade-up" data-aos-delay="500">Learn more about RoomBooking and our mission</p>
+</section>
+<section class="bg-white py-12" data-aos="fade-right" data-aos-delay="600">
+  <div class="container mx-auto px-4 flex flex-col lg:flex-row items-center">
+      <div class="lg:w-1/2">
+          <img src="../img/background1.jpg" alt="Our Story" class="w-full h-auto rounded-lg" data-aos="fade-left" data-aos-delay="200">
+      </div>
+      <div class="lg:w-1/2 lg:pl-12 mt-8 lg:mt-0">
+          <h2 class="text-2xl font-bold text-gray-800 mb-4" data-aos="fade-left" data-aos-delay="400">Our Story</h2>
+          <p class="text-gray-600" data-aos="fade-left" data-aos-delay="600">RoomBooking was founded in 2023 with the mission to simplify room booking. Our platform connects users with the best accommodations available. We started with a small team of dedicated professionals and have grown into a trusted service for thousands of users worldwide.</p>
+      </div>
+  </div>
+</section>
+<section class="bg-gray-50 py-12">
+  <div class="container mx-auto px-4 flex flex-col lg:flex-row items-center">
+      <div class="lg:w-1/2 lg:pr-12">
+          <h2 class="text-2xl font-bold text-gray-800 mb-4" data-aos="fade-right" data-aos-delay="400">Our Mission</h2>
+          <p class="text-gray-600" data-aos="fade-right" data-aos-delay="600">Our mission is to provide an easy-to-use platform for booking rooms, ensuring a seamless and enjoyable experience for all our users. We strive to offer the best selection of rooms, competitive prices, and exceptional customer service to make your stay comfortable and stress-free.</p>
+      </div>
+      <div class="lg:w-1/2 mt-8 lg:mt-0">
+          <img src="../img/ourmission.jpg"  alt="Our Mission" class="w-full h-auto rounded-lg" data-aos="fade-left" data-aos-delay="200">
+      </div>
+  </div>
+</section>
+<section class="bg-white py-12" data-aos="fade-right" data-aos-delay="600">
+  <div class="container mx-auto px-4 flex flex-col lg:flex-row items-center">
+      <div class="lg:w-1/2">
+          <img src="../img/ourteam.jpg" alt="Our Team" class="w-full h-auto rounded-lg" data-aos="fade-left" data-aos-delay="200">
+      </div>
+      <div class="lg:w-1/2 lg:pl-12 mt-8 lg:mt-0">
+          <h2 class="text-2xl font-bold text-gray-800 mb-4" data-aos="fade-left" data-aos-delay="400">Our Team</h2>
+          <p class="text-gray-600" data-aos="fade-left" data-aos-delay="600">We are a team of passionate professionals dedicated to making room booking simple and efficient. Our team works tirelessly to enhance our platform and services. We believe in continuous improvement and innovation to provide the best experience for our users.</p>
+      </div>
+  </div>
+</section>
+<!-- US End -->
+
+<!-- footer start -->
+
+
+<!-- footer end -->
+
+  
+
+    
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script  type="module"  src="../js/main.js"></script>
+<script>
+  AOS.init();
+</script>
+</html>

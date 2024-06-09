@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../dist/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    
+
+
+</head>
+<body class="overflow-y-scroll no-scrollbar bg-blue-300">
+
+<!-- navabr start --> 
+
+    
+    
+<nav class="fixed w-full z-50 sm:fixed bg-white  border-gray-200 dark:bg-gray-900 dark:border-gray-700">
+  <div class="  max-w-screen-x2 flex flex-wrap items-center justify-between mx-auto">
+    <select class="bg-transparent border-0 duration-200 font-bold m-4 cursor-pointer inuse" name="lang" id="" style="font-family: Poppins, sans-serif" data-aos="fade-up" data-aos-delay="600">
+      <option class="font-bold" value="" style="font-family: Poppins, sans-serif">English</option>
+      <option class="font-bold" value="" style="font-family: Poppins, sans-serif">French</option>
+      <option class="font-bold" value="" style="font-family: Poppins, sans-serif">Arabic</option>
+    </select>
+    <div class="flex items-center md:order-2 space-x-1 md:space-x-0 rtl:space-x-reverse m-4">
+      <div class="flex font-medium">
+        <a href=""><i class=" fa-solid fa-user  mx-4 text-1xl text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"></i></a>
+        <a href=""><i class="fa-solid fa-right-to-bracket mx-4 text-1xl text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <span class="self-center text-3xl font-semibold whitespace-nowrap" style="font-family: Great Vibes, cursive; font-weight: 500;">GetTheRoom</span>
+    </a>
+    <button data-collapse-toggle="navbar-multi-level" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-multi-level" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+    </button>
+    <div class="hidden w-full md:block md:w-auto" id="navbar-multi-level">
+      <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+        <li>
+          <a href="../index.html" class="block py-2 px-3 text-2xl text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" style="font-family: Great Vibes, cursive; font-weight: 500;" >Home</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-2xl text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent" aria-current="page" style="font-family: Great Vibes, cursive; font-weight: 500;" >Hotels</a>
+        </li>
+        <li>
+          <a href="./offers.html" class="block py-2 px-3 text-2xl text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" style="font-family: Great Vibes, cursive; font-weight: 500;" >Offers</a>
+        </li>
+        <li>
+          <a href="./Bloge.html" class="block py-2 px-3 text-2xl text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" style="font-family: Great Vibes, cursive; font-weight: 500;" >Blog</a>
+        </li>
+        <li>
+          <a href="./Contact.html" class="block py-2 px-3 text-2xl text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" style="font-family: Great Vibes, cursive; font-weight: 500;" >Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    
+    
+
+<!-- navabr end -->
+
+<!-- Hero start --> 
+
+<div class="relative h-screen">
+  <img class="absolute inset-0 w-full h-full object-cover"  data-aos="fade-up" data-aos-delay="500" src="https://images.unsplash.com/photo-1614568112072-770f89361490?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+  <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4">
+    <div class="text-center text-white max-w-md w-full">
+      <h1 class="mb-8 text-4xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl" style="font-family: Great Vibes, cursive; font-weight: 500;" data-aos="fade-up" data-aos-delay="600">Search For Your Room</h1>
+      <!-- Form Start -->
+      <form class="space-y-4" method="get">
+        <div>
+          <label for="place" class="sr-only text-stone-950">Place</label>
+          <input data-aos="fade-up" data-aos-delay="500" type="text" id="place" name="place" class="text-stone-950 block w-full px-4 py-2 rounded-md border border-gray-300 focus:ring-indigo-500 focus:border-indigo-500" style="font-family: Great Vibes, cursive; font-weight: 500;" placeholder="Place">
+        </div>
+        <div>
+          <label for="checkin" class="sr-only">Check-in</label>
+          <input data-aos="fade-up" data-aos-delay="400"  type="date" id="checkin" name="checkin" class="text-stone-950 block w-full px-4 py-2 rounded-md border border-gray-300 focus:ring-indigo-500 focus:border-indigo-500" style="font-family: Great Vibes, cursive; font-weight: 500;" placeholder="Check-in">
+        </div>
+        <div>
+          <label for="checkout" class="sr-only">Check-out</label>
+          <input data-aos="fade-up" data-aos-delay="300" type="date" id="checkout" name="checkout" class="text-stone-950 block w-full px-4 py-2 rounded-md border border-gray-300 focus:ring-indigo-500 focus:border-indigo-500" style="font-family: Great Vibes, cursive; font-weight: 500;" placeholder="Check-out">
+        </div>
+        <div>
+          <label for="persons" class="sr-only">Persons</label>
+          <select data-aos="fade-up" data-aos-delay="200" id="persons" name="persons" class="text-stone-950 block w-full px-4 py-2 rounded-md border border-gray-300 focus:ring-indigo-500 focus:border-indigo-500" style="font-family: Great Vibes, cursive; font-weight: 500;">
+            <option class="text-stone-950" value="" disabled selected>Number of Persons</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+        </div>
+        <button data-aos="fade-up" data-aos-delay="100" type="submit" class="w-full px-4 py-2 text-white bg-indigo-600 rounded-md hover:bg-indigo-700 focus:ring-4 focus:ring-indigo-500" style="font-family: Great Vibes, cursive; font-weight: 500;">Search</button>
+      </form>
+      <!-- Form End -->
+    </div>
+  </div>
+</div>
+
+<!-- Hero end --> 
+
+
+
+
+
+<!-- Hotels  start-->
+    <div class="px-40">
+<section class="py-20">
+    <h1 class="mb-12 text-center font-sans text-5xl font-bold text-gray-900">Rabat</h1>
+    <div class="mx-auto grid max-w-screen-xl grid-cols-1 gap-6 p-6 md:grid-cols-2 lg:grid-cols-3">
+      <article class="rounded-xl bg-black p-3 shadow-lg hover:shadow-xl">
+        <a href="#">
+          <div class="relative flex items-end overflow-hidden rounded-xl">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/31/76/83/caption.jpg?w=1200&h=-1&s=1" alt="Hotel Photo" />
+            <div class="absolute bottom-3 left-3 inline-flex items-center rounded-lg bg-white p-2 shadow-md">
+              <img src="/images/star.svg" class="h-5 w-5 text-yellow-400" alt="Rating Star" />
+              <span class="text-slate-400 ml-1 text-sm">4.9</span>
+            </div>
+          </div>
+  
+          <div class="mt-1 p-2">
+            <h2 class="text-slate-700">The Hilton Hotel</h2>
+            <p class="text-slate-400 mt-1 text-sm">Lisbon, Portugal</p>
+  
+            <div class="mt-3 flex items-end justify-between">
+              <p>
+                <span class="text-lg font-bold text-blue-500">$850</span>
+                <span class="text-slate-400 text-sm">/night</span>
+              </p>
+  
+              <div class="group inline-flex rounded-xl bg-blue-100 p-2 hover:bg-blue-200">
+                <img src="/images/arrow-right.svg" class="group-hover:text-blue-500 h-4 w-4 text-blue-400" alt="Arrow Right" />
+              </div>
+            </div>
+          </div>
+        </a>
+      </article>
+      <article class="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl">
+        <a href="#">
+          <div class="relative flex items-end overflow-hidden rounded-xl">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/31/76/83/caption.jpg?w=1200&h=-1&s=1" alt="Hotel Photo" />
+            <div class="absolute bottom-3 left-3 inline-flex items-center rounded-lg bg-white p-2 shadow-md">
+              <img src="/images/star.svg" class="h-5 w-5 text-yellow-400" alt="Rating Star" />
+              <span class="text-slate-400 ml-1 text-sm">4.9</span>
+            </div>
+          </div>
+  
+          <div class="mt-1 p-2">
+            <h2 class="text-slate-700">The Hilton Hotel</h2>
+            <p class="text-slate-400 mt-1 text-sm">Lisbon, Portugal</p>
+  
+            <div class="mt-3 flex items-end justify-between">
+              <p>
+                <span class="text-lg font-bold text-blue-500">$850</span>
+                <span class="text-slate-400 text-sm">/night</span>
+              </p>
+  
+              <div class="group inline-flex rounded-xl bg-blue-100 p-2 hover:bg-blue-200">
+                <img src="/images/arrow-right.svg" class="group-hover:text-blue-500 h-4 w-4 text-blue-400" alt="Arrow Right" />
+              </div>
+            </div>
+          </div>
+        </a>
+      </article>
+      <article class="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl">
+        <a href="#">
+          <div class="relative flex items-end overflow-hidden rounded-xl">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/31/76/83/caption.jpg?w=1200&h=-1&s=1" alt="Hotel Photo" />
+            <div class="absolute bottom-3 left-3 inline-flex items-center rounded-lg bg-white p-2 shadow-md">
+              <img src="/images/star.svg" class="h-5 w-5 text-yellow-400" alt="Rating Star" />
+              <span class="text-slate-400 ml-1 text-sm">4.9</span>
+            </div>
+          </div>
+  
+          <div class="mt-1 p-2">
+            <h2 class="text-slate-700">The Hilton Hotel</h2>
+            <p class="text-slate-400 mt-1 text-sm">Lisbon, Portugal</p>
+  
+            <div class="mt-3 flex items-end justify-between">
+              <p>
+                <span class="text-lg font-bold text-blue-500">$850</span>
+                <span class="text-slate-400 text-sm">/night</span>
+              </p>
+  
+              <div class="group inline-flex rounded-xl bg-blue-100 p-2 hover:bg-blue-200">
+                <img src="/images/arrow-right.svg" class="group-hover:text-blue-500 h-4 w-4 text-blue-400" alt="Arrow Right" />
+              </div>
+            </div>
+          </div>
+        </a>
+      </article>
+  
+      <!-- Repeat the same structure for the other articles -->
+    </div>
+  </section>
+  <section class="py-20">
+    <h1 class="mb-12 text-center font-sans text-5xl font-bold text-gray-900">Tangier</h1>
+    <div class="mx-auto grid max-w-screen-xl grid-cols-1 gap-6 p-6 md:grid-cols-2 lg:grid-cols-3">
+      <article class="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl">
+        <a href="#">
+          <div class="relative flex items-end overflow-hidden rounded-xl">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/31/76/83/caption.jpg?w=1200&h=-1&s=1" alt="Hotel Photo" />
+            <div class="absolute bottom-3 left-3 inline-flex items-center rounded-lg bg-white p-2 shadow-md">
+              <img src="/images/star.svg" class="h-5 w-5 text-yellow-400" alt="Rating Star" />
+              <span class="text-slate-400 ml-1 text-sm">4.9</span>
+            </div>
+          </div>
+  
+          <div class="mt-1 p-2">
+            <h2 class="text-slate-700">The Hilton Hotel</h2>
+            <p class="text-slate-400 mt-1 text-sm">Lisbon, Portugal</p>
+  
+            <div class="mt-3 flex items-end justify-between">
+              <p>
+                <span class="text-lg font-bold text-blue-500">$850</span>
+                <span class="text-slate-400 text-sm">/night</span>
+              </p>
+  
+              <div class="group inline-flex rounded-xl bg-blue-100 p-2 hover:bg-blue-200">
+                <img src="/images/arrow-right.svg" class="group-hover:text-blue-500 h-4 w-4 text-blue-400" alt="Arrow Right" />
+              </div>
+            </div>
+          </div>
+        </a>
+      </article>
+      <article class="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl">
+        <a href="#">
+          <div class="relative flex items-end overflow-hidden rounded-xl">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/31/76/83/caption.jpg?w=1200&h=-1&s=1" alt="Hotel Photo" />
+            <div class="absolute bottom-3 left-3 inline-flex items-center rounded-lg bg-white p-2 shadow-md">
+              <img src="/images/star.svg" class="h-5 w-5 text-yellow-400" alt="Rating Star" />
+              <span class="text-slate-400 ml-1 text-sm">4.9</span>
+            </div>
+          </div>
+  
+          <div class="mt-1 p-2">
+            <h2 class="text-slate-700">The Hilton Hotel</h2>
+            <p class="text-slate-400 mt-1 text-sm">Lisbon, Portugal</p>
+  
+            <div class="mt-3 flex items-end justify-between">
+              <p>
+                <span class="text-lg font-bold text-blue-500">$850</span>
+                <span class="text-slate-400 text-sm">/night</span>
+              </p>
+  
+              <div class="group inline-flex rounded-xl bg-blue-100 p-2 hover:bg-blue-200">
+                <img src="/images/arrow-right.svg" class="group-hover:text-blue-500 h-4 w-4 text-blue-400" alt="Arrow Right" />
+              </div>
+            </div>
+          </div>
+        </a>
+      </article>
+      <article class="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl">
+        <a href="#">
+          <div class="relative flex items-end overflow-hidden rounded-xl">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/31/76/83/caption.jpg?w=1200&h=-1&s=1" alt="Hotel Photo" />
+            <div class="absolute bottom-3 left-3 inline-flex items-center rounded-lg bg-white p-2 shadow-md">
+              <img src="/images/star.svg" class="h-5 w-5 text-yellow-400" alt="Rating Star" />
+              <span class="text-slate-400 ml-1 text-sm">4.9</span>
+            </div>
+          </div>
+  
+          <div class="mt-1 p-2">
+            <h2 class="text-slate-700">The Hilton Hotel</h2>
+            <p class="text-slate-400 mt-1 text-sm">Lisbon, Portugal</p>
+  
+            <div class="mt-3 flex items-end justify-between">
+              <p>
+                <span class="text-lg font-bold text-blue-500">$850</span>
+                <span class="text-slate-400 text-sm">/night</span>
+              </p>
+  
+              <div class="group inline-flex rounded-xl bg-blue-100 p-2 hover:bg-blue-200">
+                <img src="/images/arrow-right.svg" class="group-hover:text-blue-500 h-4 w-4 text-blue-400" alt="Arrow Right" />
+              </div>
+            </div>
+          </div>
+        </a>
+      </article>
+  
+      <!-- Repeat the same structure for the other articles -->
+    </div>
+  </section>
+  <section class="py-20">
+    <h1 class="mb-12 text-center font-sans text-5xl font-bold text-gray-900">Marrakech</h1>
+    <div class="mx-auto grid max-w-screen-xl grid-cols-1 gap-6 p-6 md:grid-cols-2 lg:grid-cols-3">
+      <article class="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl">
+        <a href="#">
+          <div class="relative flex items-end overflow-hidden rounded-xl">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/31/76/83/caption.jpg?w=1200&h=-1&s=1" alt="Hotel Photo" />
+            <div class="absolute bottom-3 left-3 inline-flex items-center rounded-lg bg-white p-2 shadow-md">
+              <img src="/images/star.svg" class="h-5 w-5 text-yellow-400" alt="Rating Star" />
+              <span class="text-slate-400 ml-1 text-sm">4.9</span>
+            </div>
+          </div>
+  
+          <div class="mt-1 p-2">
+            <h2 class="text-slate-700">The Hilton Hotel</h2>
+            <p class="text-slate-400 mt-1 text-sm">Lisbon, Portugal</p>
+  
+            <div class="mt-3 flex items-end justify-between">
+              <p>
+                <span class="text-lg font-bold text-blue-500">$850</span>
+                <span class="text-slate-400 text-sm">/night</span>
+              </p>
+  
+              <div class="group inline-flex rounded-xl bg-blue-100 p-2 hover:bg-blue-200">
+                <img src="/images/arrow-right.svg" class="group-hover:text-blue-500 h-4 w-4 text-blue-400" alt="Arrow Right" />
+              </div>
+            </div>
+          </div>
+        </a>
+      </article>
+      <article class="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl">
+        <a href="#">
+          <div class="relative flex items-end overflow-hidden rounded-xl">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/31/76/83/caption.jpg?w=1200&h=-1&s=1" alt="Hotel Photo" />
+            <div class="absolute bottom-3 left-3 inline-flex items-center rounded-lg bg-white p-2 shadow-md">
+              <img src="/images/star.svg" class="h-5 w-5 text-yellow-400" alt="Rating Star" />
+              <span class="text-slate-400 ml-1 text-sm">4.9</span>
+            </div>
+          </div>
+  
+          <div class="mt-1 p-2">
+            <h2 class="text-slate-700">The Hilton Hotel</h2>
+            <p class="text-slate-400 mt-1 text-sm">Lisbon, Portugal</p>
+  
+            <div class="mt-3 flex items-end justify-between">
+              <p>
+                <span class="text-lg font-bold text-blue-500">$850</span>
+                <span class="text-slate-400 text-sm">/night</span>
+              </p>
+  
+              <div class="group inline-flex rounded-xl bg-blue-100 p-2 hover:bg-blue-200">
+                <img src="/images/arrow-right.svg" class="group-hover:text-blue-500 h-4 w-4 text-blue-400" alt="Arrow Right" />
+              </div>
+            </div>
+          </div>
+        </a>
+      </article>
+      <article class="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl">
+        <a href="#">
+          <div class="relative flex items-end overflow-hidden rounded-xl">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/31/76/83/caption.jpg?w=1200&h=-1&s=1" alt="Hotel Photo" />
+            <div class="absolute bottom-3 left-3 inline-flex items-center rounded-lg bg-white p-2 shadow-md">
+              <img src="/images/star.svg" class="h-5 w-5 text-yellow-400" alt="Rating Star" />
+              <span class="text-slate-400 ml-1 text-sm">4.9</span>
+            </div>
+          </div>
+  
+          <div class="mt-1 p-2">
+            <h2 class="text-slate-700">The Hilton Hotel</h2>
+            <p class="text-slate-400 mt-1 text-sm">Lisbon, Portugal</p>
+  
+            <div class="mt-3 flex items-end justify-between">
+              <p>
+                <span class="text-lg font-bold text-blue-500">$850</span>
+                <span class="text-slate-400 text-sm">/night</span>
+              </p>
+  
+              <div class="group inline-flex rounded-xl bg-blue-100 p-2 hover:bg-blue-200">
+                <img src="/images/arrow-right.svg" class="group-hover:text-blue-500 h-4 w-4 text-blue-400" alt="Arrow Right" />
+              </div>
+            </div>
+          </div>
+        </a>
+      </article>
+  
+      <!-- Repeat the same structure for the other articles -->
+    </div>
+  </section>
+</div>
+  
+  
+
+<!-- Hotels end -->
+
+
+
+
+  
+
+    
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="../js/main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</html>
